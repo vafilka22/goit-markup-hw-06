@@ -245,6 +245,7 @@ img {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
+  letter-spacing: 0.06em;
   font-family: Roboto, sans-serif;
   cursor: pointer;
 
@@ -619,7 +620,7 @@ img {
   flex-direction: column;
   align-items: flex-start;
   margin-top: 15px;
-  margin-left: 44px;
+  margin-left: auto;
 }
 .footer-form-title {
   margin-bottom: 20px;
@@ -653,7 +654,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: inherit;
+  gap: 10px;
   width: 200px;
   height: 50px;
   border: inherit;
@@ -664,10 +665,9 @@ img {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+  letter-spacing: 0.06em;
   margin-bottom: 20px;
   color: #ffffff;
   cursor: pointer;
@@ -684,7 +684,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-left: 8px;
   bottom: 2px;
   left: 160px;
 }
@@ -876,12 +875,14 @@ img {
 
 .close {
   position: absolute;
-  width: 30px;
-  height: 30px;
+
   right: 0px;
   top: 0px;
   margin: 8px 8px;
-  padding: 6px 6px;
+  padding-left: 6px;
+  padding-top: 6px;
+  padding-right: 6px;
+
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 20px;
@@ -1074,6 +1075,7 @@ img {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
+  letter-spacing: 0.06em;
   font-family: Roboto, sans-serif;
   cursor: pointer;
 
